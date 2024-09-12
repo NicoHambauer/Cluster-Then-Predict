@@ -1,5 +1,9 @@
-# cluster-then-predict
+# Cluster-then-predict models
 The repository contains the code to a benchmark studying different cluster-then-predict (CTP) models. CTP models are a type of model that work in a two staged way. They first cluster samples into smaller subsets and then predict a target variable.
+
+## Paper
+
+Paper will be available at HICSS 2025 Conference Proceedings in January 2025 and will be linked soon.
 
 
 ## Environment Setup
