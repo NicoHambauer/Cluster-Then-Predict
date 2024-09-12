@@ -1,0 +1,26 @@
+,CLUSTERING_OPTICS
+car,"'n_clusters': None
+ 'max_eps': 2.0
+ 'xi': 0.05
+ 'min_samples': 0.01
+ 'lr_alpha': 0.1"
+productivity,"'n_clusters': None
+ 'max_eps': 2.0
+ 'xi': 0.1
+ 'min_samples': 0.01
+ 'lr_alpha': 0.1"
+medical,"'n_clusters': None
+ 'max_eps': 1.0
+ 'xi': 0.03
+ 'min_samples': 0.01
+ 'lr_alpha': 0.1"
+bike,"'n_clusters': None
+ 'max_eps': 2.0
+ 'xi': 0.03
+ 'min_samples': 0.05
+ 'lr_alpha': 0.1"
+diamond,"'n_clusters': None
+ 'max_eps': 2.0
+ 'xi': 0.05
+ 'min_samples': 0.01
+ 'lr_alpha': 0.1"

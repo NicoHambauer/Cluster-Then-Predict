@@ -1,0 +1,10 @@
+,CLUSTERING_kmeans
+telco,"'n_clusters': 12
+ 'max_iter': 100
+ 'n_init': 25
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.0001
+ 'C': 1.0
+ 'penalty': 'l2'
+ 'solver': 'lbfgs'"

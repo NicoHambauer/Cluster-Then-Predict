@@ -1,0 +1,9 @@
+,CLUSTERING_Birch
+car,"'n_clusters': 2
+ 'threshold': 0.5
+ 'branching_factor': 25
+ 'lr_alpha': 0.1"
+bike,"'n_clusters': 4
+ 'threshold': 0.5
+ 'branching_factor': 50
+ 'lr_alpha': 1.0"

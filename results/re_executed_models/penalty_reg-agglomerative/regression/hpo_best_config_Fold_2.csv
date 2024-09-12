@@ -1,0 +1,8 @@
+,CLUSTERING_agglomerative
+car,"'n_clusters': 4
+ 'linkage': 'ward'
+ 'lasso_alpha': 0.1"
+crab,"'n_clusters': 4
+ 'linkage': 'ward'
+ 'lasso_alpha': 0.1"
+diamond,

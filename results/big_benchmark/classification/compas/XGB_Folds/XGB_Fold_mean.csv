@@ -1,0 +1,6 @@
+,precision,recall,f1-score,support,ROC_AUC
+No recidivism,0.689,0.782,0.732,792.600,
+Recidivism,0.682,0.568,0.619,650.200,
+accuracy,0.686,0.686,0.686,0.686,0.737
+macro avg,0.685,0.675,0.676,1442.800,
+weighted avg,0.686,0.686,0.681,1442.800,

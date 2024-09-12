@@ -1,0 +1,81 @@
+,CLUSTERING_kmeans
+weather,"'n_clusters': 16
+ 'max_iter': 300
+ 'n_init': 10
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.0001
+ 'C': 10.0"
+stroke,"'n_clusters': 2
+ 'max_iter': 300
+ 'n_init': 'auto'
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.0001
+ 'C': 0.5"
+adult,"'n_clusters': 8
+ 'max_iter': 300
+ 'n_init': 10
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.001
+ 'C': 0.1"
+telco,"'n_clusters': 8
+ 'max_iter': 300
+ 'n_init': 'auto'
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.0001
+ 'C': 0.1"
+college,"'n_clusters': 8
+ 'max_iter': 300
+ 'n_init': 10
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.0001
+ 'C': 1.0"
+fico,"'n_clusters': 2
+ 'max_iter': 300
+ 'n_init': 20
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.001
+ 'C': 0.5"
+bank,"'n_clusters': 16
+ 'max_iter': 300
+ 'n_init': 20
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.001
+ 'C': 1.0"
+airline,"'n_clusters': 16
+ 'max_iter': 300
+ 'n_init': 'auto'
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.001
+ 'C': 10.0"
+compas,"'n_clusters': 8
+ 'max_iter': 300
+ 'n_init': 'auto'
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.0001
+ 'C': 1.0"
+water,"'n_clusters': 16
+ 'max_iter': 300
+ 'n_init': 10
+ 'init': 'k-means++'
+ 'algorithm': 'auto'
+ 'tol': 0.0001
+ 'C': 0.01"
+car,
+student,
+productivity,
+medical,
+crimes,
+crab,
+wine,
+bike,
+housing,
+diamond,

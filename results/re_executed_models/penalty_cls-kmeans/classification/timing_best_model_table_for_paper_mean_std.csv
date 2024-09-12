@@ -1,0 +1,11 @@
+dataset,CLUSTERING_kmeans
+college,0.312±0.098
+water,0.724±0.323
+stroke,0.220±0.153
+telco,0.320±0.201
+compas,0.318±0.066
+fico,0.682±0.404
+adult,0.704±0.159
+bank,1.124±0.820
+airline,1.590±0.890
+weather,3.250±2.456

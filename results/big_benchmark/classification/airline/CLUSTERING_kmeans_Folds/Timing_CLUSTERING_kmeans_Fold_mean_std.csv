@@ -1,0 +1,2 @@
+model,timing_best_model,mean_timing_all_hpo_configs
+CLUSTERING_kmeans,3.054±0.151,2.266±0.067

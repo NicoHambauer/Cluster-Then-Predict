@@ -1,0 +1,2 @@
+model,timing_best_model,mean_timing_all_hpo_configs
+CLUSTERING_Birch,0.052±0.013,0.048±0.004

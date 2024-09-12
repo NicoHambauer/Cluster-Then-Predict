@@ -1,0 +1,11 @@
+dataset,LLM_Regressor
+car,0.336±0.121
+student,0.867±0.121
+productivity,0.809±0.072
+medical,0.368±0.024
+crimes,0.593±0.063
+crab,0.682±0.051
+wine,0.819±0.024
+bike,0.580±0.012
+housing,0.542±0.017
+diamond,0.306±0.334

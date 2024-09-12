@@ -1,0 +1,2 @@
+model,timing_best_model,mean_timing_all_hpo_configs
+CLUSTERING_agglomerative,0.272±0.043,0.292±0.011

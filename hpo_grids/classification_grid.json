@@ -1,0 +1,80 @@
+{
+  "LR": {
+    "C": [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+    "penalty": ["l1", "l2", "elasticnet", "none"],
+    "class_weight": ["balanced", null],
+    "solver": ["lbfgs", "liblinear", "saga"],
+    "l1_ratio": [0.25, 0.5, 0.75, null],
+    "max_iter": [100, 300]
+  },
+  "ELASTICNET": {
+    "alpha": [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+    "l1_ratio": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+  },
+  "RF": {
+    "n_estimators": [50, 100, 200, 500, 1000],
+    "max_depth": [5, 10, 20, 40, null],
+    "class_weight": ["balanced", null]
+  },
+  "DT": {
+    "max_depth": [5, 10, 20, 40, null],
+    "max_leaf_nodes": [null, 5, 10, 20, 40],
+    "class_weight": ["balanced", null],
+    "splitter": ["best", "random"]
+  },
+  "XGB": {
+    "max_depth": [3, 6, 9, 12, null],
+    "learning_rate": [0.01, 0.1, 0.3],
+    "n_estimators": [50, 100, 200, 500, 1000, 2000]
+  },
+  "CATBOOST": {
+    "n_estimators": [50, 100, 200, 500, 1000, 2000],
+    "max_depth": [3, 6, 9, 12, null],
+    "eta": [0.01, 0.03, 0.1, 0.3]
+  },
+  "CLUSTERING_kmeans": {
+    "n_clusters": [2, 4, 6, 8, 12, 16],
+    "max_iter": [100, 300],
+    "n_init": [5, 10, 15, 20, 25],
+    "init": ["k-means++", "random"],
+    "algorithm": ["lloyd", "elkan"],
+    "tol": [1e-4, 1e-3],
+    "C": [1.0],
+    "penalty": ["l2"],
+    "solver": ["lbfgs"]
+  },
+  "CLUSTERING_spectral": {
+    "n_clusters": [2, 4, 8, 16]
+  },
+  "CLUSTERING_agglomerative": {
+    "n_clusters": [2, 4, 8, 16],
+    "linkage": ["ward", "complete", "average", "single"]
+  },
+  "CLUSTERING_DBSCAN": {
+    "n_clusters": [null],
+    "eps": [0.3, 0.4, 0.5, 0.6, 0.7, 0.8],
+    "min_samples": [4, 5, 8],
+    "metric": ["euclidean"],
+    "algorithm": ["auto", "brute"],
+    "lr_alpha": [100, 10, 2.0, 1.0, 0.1],
+    "penalty": ["l2"],
+    "solver": ["lbfgs"]
+  },
+  "CLUSTERING_OPTICS": {
+    "n_clusters": [2],
+    "max_eps": [0.5, 1.0, 1.5, 2.0, "inf"],
+    "xi": [0.03, 0.05, 0.07, 0.1, 0.15],
+    "min_samples": [0.01, 0.025, 0.05, 0.1, 0.25, 0.5]
+  },
+  "CLUSTERING_Birch": {
+    "n_clusters": [2, 4, 8, 16],
+    "threshold": [0.1, 0.3, 0.5, 0.7, 1.0],
+    "branching_factor": [20, 30, 50, 70, 90]
+  },
+  "LLM": {
+    "max_depth": [1, 2, 3, 4],
+    "min_leaf_size": [0.01, 0.025, 0.05, 0.1, 0.25, 0.5],
+    "ccp_alpha": [0.0, 0.01, 0.015, 0.02, 0.025, 0.03],
+    "C": [0.01, 0.1, 0.5, 1.0, 10.0]
+  }
+}

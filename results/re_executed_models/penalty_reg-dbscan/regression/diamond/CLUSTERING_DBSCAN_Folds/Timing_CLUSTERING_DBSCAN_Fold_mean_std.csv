@@ -1,0 +1,2 @@
+model,timing_best_model,mean_timing_all_hpo_configs
+CLUSTERING_DBSCAN,4.200±0.269,2.836±0.128

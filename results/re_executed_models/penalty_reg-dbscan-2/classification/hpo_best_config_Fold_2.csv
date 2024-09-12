@@ -1,0 +1,9 @@
+,CLUSTERING_DBSCAN
+water,"'n_clusters': None
+ 'eps': 0.7
+ 'min_samples': 2
+ 'metric': 'euclidean'
+ 'algorithm': 'brute'
+ 'lr_alpha': 100
+ 'penalty': 'l2'
+ 'solver': 'lbfgs'"

@@ -1,0 +1,171 @@
+,CLUSTERING_kmeans,CLUSTERING_agglomerative,CLUSTERING_DBSCAN,CLUSTERING_OPTICS,CLUSTERING_Birch,LLM,LR,DT,RF,XGB
+weather,'n_clusters': 16,'n_clusters': 16,'n_clusters': 2,'n_clusters': 2,'n_clusters': 8,"'max_depth': 3
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.0
+ 'C': 1.0","'C': 1
+ 'penalty': 'elasticnet'
+ 'class_weight': None
+ 'solver': 'saga'
+ 'l1_ratio': 0.5
+ 'max_iter': 300","'max_depth': 10
+ 'max_leaf_nodes': 40
+ 'class_weight': None
+ 'splitter': 'best'","'n_estimators': 500
+ 'max_depth': None
+ 'class_weight': None","'max_depth': 9
+ 'learning_rate': 0.01
+ 'n_estimators': 2000"
+stroke,'n_clusters': 4,'n_clusters': 4,'n_clusters': 2,'n_clusters': 2,'n_clusters': 2,"'max_depth': 1
+ 'min_leaf_size': 0.5
+ 'ccp_alpha': 0.0
+ 'C': 1.0","'C': 0.001
+ 'penalty': 'l1'
+ 'class_weight': 'balanced'
+ 'solver': 'liblinear'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 5
+ 'max_leaf_nodes': 5
+ 'class_weight': None
+ 'splitter': 'random'","'n_estimators': 50
+ 'max_depth': 5
+ 'class_weight': None","'max_depth': 3
+ 'learning_rate': 0.01
+ 'n_estimators': 50"
+adult,'n_clusters': 8,'n_clusters': 4,'n_clusters': 2,'n_clusters': 2,'n_clusters': 8,"'max_depth': 4
+ 'min_leaf_size': 0.05
+ 'ccp_alpha': 0.0
+ 'C': 1.0","'C': 10
+ 'penalty': 'l1'
+ 'class_weight': None
+ 'solver': 'saga'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 20
+ 'max_leaf_nodes': 40
+ 'class_weight': None
+ 'splitter': 'best'","'n_estimators': 50
+ 'max_depth': 20
+ 'class_weight': None","'max_depth': 6
+ 'learning_rate': 0.1
+ 'n_estimators': 100"
+telco,'n_clusters': 4,'n_clusters': 4,'n_clusters': 2,'n_clusters': 2,'n_clusters': 4,"'max_depth': 1
+ 'min_leaf_size': 0.5
+ 'ccp_alpha': 0.0
+ 'C': 0.1","'C': 0.1
+ 'penalty': 'l1'
+ 'class_weight': None
+ 'solver': 'liblinear'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 10
+ 'max_leaf_nodes': 20
+ 'class_weight': None
+ 'splitter': 'random'","'n_estimators': 1000
+ 'max_depth': 10
+ 'class_weight': None","'max_depth': 3
+ 'learning_rate': 0.01
+ 'n_estimators': 500"
+college,'n_clusters': 8,'n_clusters': 2,'n_clusters': 2,'n_clusters': 2,'n_clusters': 4,"'max_depth': 2
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.015
+ 'C': 10.0","'C': 0.1
+ 'penalty': 'l2'
+ 'class_weight': 'balanced'
+ 'solver': 'lbfgs'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 5
+ 'max_leaf_nodes': 20
+ 'class_weight': 'balanced'
+ 'splitter': 'best'","'n_estimators': 500
+ 'max_depth': 10
+ 'class_weight': 'balanced'","'max_depth': 3
+ 'learning_rate': 0.3
+ 'n_estimators': 50"
+fico,'n_clusters': 8,'n_clusters': 2,'n_clusters': 2,'n_clusters': 2,'n_clusters': 2,"'max_depth': 1
+ 'min_leaf_size': 0.5
+ 'ccp_alpha': 0.0
+ 'C': 0.5","'C': 0.001
+ 'penalty': 'l2'
+ 'class_weight': None
+ 'solver': 'lbfgs'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 10
+ 'max_leaf_nodes': 40
+ 'class_weight': None
+ 'splitter': 'best'","'n_estimators': 200
+ 'max_depth': 40
+ 'class_weight': 'balanced'","'max_depth': 6
+ 'learning_rate': 0.01
+ 'n_estimators': 200"
+bank,'n_clusters': 2,'n_clusters': 4,'n_clusters': 2,'n_clusters': 2,'n_clusters': 8,"'max_depth': 1
+ 'min_leaf_size': 0.05
+ 'ccp_alpha': 0.0
+ 'C': 0.1","'C': 0.001
+ 'penalty': 'none'
+ 'class_weight': None
+ 'solver': 'saga'
+ 'l1_ratio': None
+ 'max_iter': 300","'max_depth': 20
+ 'max_leaf_nodes': 20
+ 'class_weight': None
+ 'splitter': 'best'","'n_estimators': 500
+ 'max_depth': 20
+ 'class_weight': None","'max_depth': 3
+ 'learning_rate': 0.1
+ 'n_estimators': 200"
+airline,'n_clusters': 16,'n_clusters': 16,'n_clusters': 2,'n_clusters': 2,'n_clusters': 16,"'max_depth': 4
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.0
+ 'C': 1.0","'C': 0.01
+ 'penalty': 'l1'
+ 'class_weight': None
+ 'solver': 'liblinear'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 20
+ 'max_leaf_nodes': None
+ 'class_weight': None
+ 'splitter': 'random'","'n_estimators': 500
+ 'max_depth': None
+ 'class_weight': 'balanced'","'max_depth': 6
+ 'learning_rate': 0.01
+ 'n_estimators': 2000"
+compas,'n_clusters': 16,'n_clusters': 8,'n_clusters': 2,'n_clusters': 2,'n_clusters': 16,"'max_depth': 2
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.01
+ 'C': 0.1","'C': 0.01
+ 'penalty': 'l1'
+ 'class_weight': 'balanced'
+ 'solver': 'liblinear'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 10
+ 'max_leaf_nodes': 40
+ 'class_weight': None
+ 'splitter': 'best'","'n_estimators': 1000
+ 'max_depth': 10
+ 'class_weight': 'balanced'","'max_depth': 3
+ 'learning_rate': 0.01
+ 'n_estimators': 500"
+water,'n_clusters': 2,'n_clusters': 4,'n_clusters': 2,'n_clusters': 2,'n_clusters': 2,"'max_depth': 4
+ 'min_leaf_size': 0.1
+ 'ccp_alpha': 0.0
+ 'C': 1.0","'C': 0.001
+ 'penalty': 'l2'
+ 'class_weight': None
+ 'solver': 'liblinear'
+ 'l1_ratio': None
+ 'max_iter': 100","'max_depth': 5
+ 'max_leaf_nodes': 20
+ 'class_weight': 'balanced'
+ 'splitter': 'best'","'n_estimators': 200
+ 'max_depth': 20
+ 'class_weight': 'balanced'","'max_depth': 6
+ 'learning_rate': 0.01
+ 'n_estimators': 200"
+car,,,,,,,,,,
+crab,,,,,,,,,,
+medical,,,,,,,,,,
+productivity,,,,,,,,,,
+student,,,,,,,,,,
+crimes,,,,,,,,,,
+bike,,,,,,,,,,
+housing,,,,,,,,,,
+diamond,,,,,,,,,,
+wine,,,,,,,,,,

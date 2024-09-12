@@ -1,0 +1,41 @@
+,LLM,LLM_Regressor
+car,,"'max_depth': 1
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 10"
+crab,,"'max_depth': 3
+ 'min_leaf_size': 0.05
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 0.1"
+medical,,"'max_depth': 2
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 0.1"
+productivity,,"'max_depth': 4
+ 'min_leaf_size': 0.025
+ 'ccp_alpha': 0.02
+ 'lr_alpha': 2.0"
+student,,"'max_depth': 2
+ 'min_leaf_size': 0.25
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 100"
+crimes,,"'max_depth': 1
+ 'min_leaf_size': 0.5
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 10"
+bike,,"'max_depth': 4
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 0.1"
+housing,,"'max_depth': 4
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 1.0"
+diamond,,"'max_depth': 4
+ 'min_leaf_size': 0.01
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 0.1"
+wine,,"'max_depth': 4
+ 'min_leaf_size': 0.05
+ 'ccp_alpha': 0.0
+ 'lr_alpha': 100"
